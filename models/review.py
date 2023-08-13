@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Review Module"""
+"""Review Module file"""
 
 from models.base_model import BaseModel
 
@@ -8,12 +8,10 @@ from models.base_model import BaseModel
 class Review(BaseModel):
     """
     Review class
-
     Attributes:
         place_id (str): Place id
         user_id (str): User id
         text (str): Review text
-
     Methods:
         __init__: Constructor of the Review class
     """
