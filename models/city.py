@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""City Module"""
+"""City Module file"""
 
 from models.base_model import BaseModel
 
@@ -8,11 +8,9 @@ from models.base_model import BaseModel
 class City(BaseModel):
     """
     City class
-
     Attributes:
         state_id (str): State id
-        name (str): City name
-
+        name (str): name of city
     Methods:
         __init__: Constructor of the City class
     """
