@@ -1,11 +1,5 @@
 # 0x00. AirBnB clone - The console
 ## Brief
-## Description
-****
-  -  By: GUILLAUME
-  -  Weight: 5
-  -  Project to be done in teams of 2 people (your team: OUALID ELHADIM , Asmaa Hadar)
-****
 ## General
 - How to create a Python package
 - How to create a command interpreter in Python using the `cmd` module
