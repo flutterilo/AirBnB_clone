@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""This module defines a class to manage file storage for hbnb clone"""
+"""This module defines a class to manage file storaage"""
 
 import json
 from models.base_model import BaseModel
@@ -19,7 +19,6 @@ class FileStorage:
     Attributes:
         __file_path (str): path to the JSON file
         __objects (dict): empty but will store all objects by <class name>.id
-
     Methods:
         all(self): returns the dictionary __objects
         new(self, obj): sets in __objects the obj with key <obj class name>.id

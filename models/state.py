@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""State Module"""
+"""State Module file"""
 
 from models.base_model import BaseModel
 
@@ -8,9 +8,8 @@ from models.base_model import BaseModel
 class State(BaseModel):
     """
     State class
-
     Attributes:
-        name (str): State name
+        name (str): name of state
 
     Methods:
         __init__: Constructor of the State class

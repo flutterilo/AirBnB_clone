@@ -5,6 +5,7 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
+<<<<<<< HEAD
     justify-content: flex-end;
     align-items: center;
 }
@@ -13,13 +14,34 @@
     font-size: 18px;
     background-color: #FF5A5F;
     color:  #FFFFFF;
+=======
+    align-items: center;
+    justify-content: flex-end;
+}
+.filters  button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+>>>>>>> ab12ce35ccf22fc4af175461d73e3dc6ca6dc06a
     height: 48px;
     width: 20%;
     border: none;
     border-radius: 4px;
+<<<<<<< HEAD
     margin-right: 30px;
 }
 
 .filters button:hover {
     opacity: 0.9;
 }
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.filters  button:hover {
+    opacity: 90%;
+}
+>>>>>>> ab12ce35ccf22fc4af175461d73e3dc6ca6dc06a

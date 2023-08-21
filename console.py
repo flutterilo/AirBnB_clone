@@ -31,8 +31,6 @@ class HBNBCommand(cmd.Cmd):
     def default(self, arg):
         """
         Called on an input line when the command prefix is not recognized.
-        If this method is not overridden, it prints an error message and
-        returns.
         """
         methods_dict = {
             "all": self.do_all,
@@ -303,9 +301,7 @@ class HBNBCommand(cmd.Cmd):
     def do_count(self, arg):
         """
         Retrieve the number of instances of a class
-
         Usage: <class name>.count()
-
         Args:
             arg (str): class name of the instance to count
         """
